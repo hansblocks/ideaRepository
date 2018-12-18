@@ -11,8 +11,16 @@ public class User {
     private String username;
     private Integer age;
     private String address;
-
     private String password;
+    private String sex;
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 
     public String getPassword() {
         return password;
